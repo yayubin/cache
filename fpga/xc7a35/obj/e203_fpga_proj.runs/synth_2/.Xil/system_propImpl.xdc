@@ -1,0 +1,56 @@
+set_property SRC_FILE_INFO {cfile:d:/puf/risc/puf_risc_flash_cache_mem_test/e203_hbirdv2-master/fpga/xc7a35/mmcm/mmcm.xdc rfile:../../../../mmcm/mmcm.xdc id:1 order:EARLY scoped_inst:ip_mmcm/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/puf/risc/puf_risc_flash_cache_mem_test/e203_hbirdv2-master/fpga/xc7a35/constrs/nuclei-master.xdc rfile:../../../../constrs/nuclei-master.xdc id:2} [current_design]
+current_instance ip_mmcm/inst
+set_property src_info {type:SCOPED_XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.2
+current_instance
+set_property src_info {type:XDC file:2 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN R4    IOSTANDARD LVCMOS33 } [get_ports { CLK50MHZ }];
+set_property src_info {type:XDC file:2 line:24 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN AB11 IOSTANDARD LVCMOS33} [get_ports uart0_tx];
+set_property src_info {type:XDC file:2 line:25 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN AB12 IOSTANDARD LVCMOS33} [get_ports uart0_rx];
+set_property src_info {type:XDC file:2 line:26 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN Y7 IOSTANDARD LVCMOS33} [get_ports fpga_led];
+set_property src_info {type:XDC file:2 line:27 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN W7 IOSTANDARD LVCMOS33} [get_ports mcu_led];
+set_property src_info {type:XDC file:2 line:29 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN V9 IOSTANDARD LVCMOS33} [get_ports gpioA[0]];
+set_property src_info {type:XDC file:2 line:30 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN Y8 IOSTANDARD LVCMOS33} [get_ports gpioA[1]];
+set_property src_info {type:XDC file:2 line:39 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T4  [get_ports fpga_rst_n  ]
+set_property src_info {type:XDC file:2 line:40 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T3  [get_ports mcu_rst_n   ]
+set_property src_info {type:XDC file:2 line:42 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R6  [get_ports  gpioA[2] ]
+set_property src_info {type:XDC file:2 line:43 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T6  [get_ports  gpioA[3] ]
+set_property src_info {type:XDC file:2 line:55 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E16 [get_ports  qspi0_cs    ]
+set_property src_info {type:XDC file:2 line:56 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D14 [get_ports  qspi0_sck   ]
+set_property src_info {type:XDC file:2 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN B21 [get_ports {qspi0_dq[3]}]
+set_property src_info {type:XDC file:2 line:58 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN B22 [get_ports {qspi0_dq[2]}]
+set_property src_info {type:XDC file:2 line:59 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D20 [get_ports {qspi0_dq[1]}]
+set_property src_info {type:XDC file:2 line:60 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN B20 [get_ports {qspi0_dq[0]}]
+set_property src_info {type:XDC file:2 line:68 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AA15 [get_ports mcu_TDO]
+set_property src_info {type:XDC file:2 line:69 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AB16 [get_ports mcu_TCK]
+set_property src_info {type:XDC file:2 line:70 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AA13 [get_ports mcu_TDI]
+set_property src_info {type:XDC file:2 line:71 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y13  [get_ports mcu_TMS]
+set_property src_info {type:XDC file:2 line:76 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U15 [get_ports pmu_paden ]
+set_property src_info {type:XDC file:2 line:77 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V15 [get_ports pmu_padrst]
+set_property src_info {type:XDC file:2 line:78 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N15 [get_ports mcu_wakeup]
+set_property src_info {type:XDC file:2 line:80 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N14 [get_ports bootrom]

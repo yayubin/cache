@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "D:/yanyebin/risc/puf_risc/e203_hbirdv2-master/fpga/xc7a35/src/fpga_config.v" -i "../../../../../../install/rtl/core" --include "../../../../../src" --include "../../../../../mmcm" --include "../../../../../../../rtl/e203/perips/apb_i2c" --include "../../../../../../../rtl/e203/core" \
+"../../../../../../../rtl/e203/general/sirv_gnrl_bufs.v" \
+"../../../../../../../rtl/e203/general/sirv_gnrl_dffs.v" \
+"../../../../../../../tb/riscv_test_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

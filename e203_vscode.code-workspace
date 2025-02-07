@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "rtl"
+		},
+		{
+			"path": "tb"
+		},
+		{
+			"path": "fpga/xc7a35/src"
+		}
+	]
+}

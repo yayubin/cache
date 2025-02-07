@@ -1,0 +1,225 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+84304
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Thu Feb 29 17:02:50 CST 2024 (1709197370)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: Design
+arch: x86_64
+release_version: 2.6.32-754.el6.x86_64
+
+SECTION_IPC_INFO
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 98304      design     600        393216     2          dest         
+0x00000000 131073     design     600        393216     2          dest         
+0x00000000 163842     design     600        393216     2          dest         
+0x00000000 196611     design     600        393216     2          dest         
+0x00000000 229380     design     600        393216     2          dest         
+0x00000000 262149     design     600        393216     2          dest         
+0x00000000 294918     design     600        393216     2          dest         
+0x00000000 327687     design     600        393216     2          dest         
+0x00000000 360456     design     600        393216     2          dest         
+0x00000000 1114121    design     600        393216     2          dest         
+0x00000000 425994     design     600        393216     2          dest         
+0x0000SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 15155
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 10240
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 1024
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 4096
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 2621440
+_SC_CHILD_MAX= 1024
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/home/eda_tool/syn/syn/O-2018.06-SP1/linux64/syn/bin/common_shell_exec -shell design_vision -r /home/eda_tool/syn/syn/O-2018.06-SP1
+
+SECTION_CPUINFO
+total_core: 2
+
+model_name:  AMD Ryzen 5 1500X Quad-Core Processor          
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good tsc_reliable nonstop_tsc extd_apicid unfair_spinlock pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw arat xsaveopt retpoline fsgsbase bmi1 avx2 smep bmi2 rdseed adx
+cpu_family: 23
+core_frequency_mhz: 3493
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD Ryzen 5 1500X Quad-Core Processor          
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good tsc_reliable nonstop_tsc extd_apicid unfair_spinlock pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw arat xsaveopt retpoline fsgsbase bmi1 avx2 smep bmi2 rdseed adx
+cpu_family: 23
+core_frequency_mhz: 3493
+core_per_socket: 0
+stepping: 1
+cache_size_kb: 512
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+Red Hat Enterprise Linux Server release 6.10 (Santiago)
+
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:20
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/extra_free_kbytes:0
+/proc/sys/vm/hugepages_treat_as_movable:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/meminfo_legacy_layout:1
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:0
+/proc/sys/vm/numa_zonelist_order:default
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/scan_unevictable_pages:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:60
+/proc/sys/vm/unmap_area_factor:0
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/would_have_oomkilled:0
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+swap_partition: /dev/sda3
+size_gb: 15
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1709197370938
+
+SECTION_MPSTAT
+total_core: 2
+
+CPU     %user   %kernel %wait   %idle   
+all   22.029984 0.287335 0.275420 77.407265
+0     23.392885 0.228639 0.287970 76.090508
+1     20.353266 0.359545 0.259980 79.027206
+
+SECTION_PID_STATUS
+name: common_shell_ex
+state: 1
+vmsize: 3843128
+vmrss: 2368236
+vmdata: 3396144
+vmstk: 584
+vmexe: 250552
+vmlib: 107656
+threads: 1
+
+SECTION_PROCESS_CPU_UTIL
+pid: 84304
+cpu_total_time: 241220045
+cpu_used_time: 784497
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 3908432
+memfree: 573948
+cached: 359036
+swapcached: 56716
+active: 2501564
+swaptotal: 16777212
+swapfree: 15824460
+
+SECTION_SMAPS
+shared_kb: 3092
+private_kb: 2365144
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        15G  4G  10G    30
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          1048576  124288 924288   4294966653
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        274G  258G  15G    94
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          0  0 0   0
+
+SECTION_SWAP_RATE
+blk_read: 6302344
+blk_wrtn: 11558488
+swap_in_rate: 
+swap_out_rate: 
+swap_in_rate: 
+swap_out_rate: 
+
+SECTION_FD_SIZE
+files: 17
+total_size: 319986948
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 1
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+    lo:         0        0        0        0
+
+SECTION_NFSSTAT
+Error: Could not collect the data.
+
+SECTION_THREAD_CPU_UTIL
+84304 : 84304 (common_shell_ex) R 84303 84303 84205 34819 84303 4202496 897518 116206 238 94 617860 162742 200 3714 20 0 1 0 163144025 3935363072 592059 18446744073709551615 4194304 260758180 140733130304032 140733130274264 219836114960 0 1024 4096 1135636223 0 0 0 17 1 0 0 294 0 0
+
+CRTE_PERIODIC_END 1 1709197370938

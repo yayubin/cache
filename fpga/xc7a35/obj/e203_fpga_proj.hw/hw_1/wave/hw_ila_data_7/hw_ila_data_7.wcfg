@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/yanyebin/risc/puf_risc_flash_cache2/e203_hbirdv2-master/fpga/xc7a35/obj/e203_fpga_proj.hw/hw_1/wave/hw_ila_data_7/hw_ila_data_7.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1527720fs"></ZoomEndTime>
+      <Cursor1Time time="775000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="263"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/cont" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/cont[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cont[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_addr" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_icb_cmd_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_read" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_read</obj_property>
+      <obj_property name="ObjectShortName">f_icb_cmd_read</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_ready" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">f_icb_cmd_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_valid" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">f_icb_cmd_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_wdata" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_cmd_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_icb_cmd_wdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_rsp_rdata" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_rsp_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">f_icb_rsp_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_rsp_ready" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_rsp_ready</obj_property>
+      <obj_property name="ObjectShortName">f_icb_rsp_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_rsp_valid" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/f_icb_rsp_valid</obj_property>
+      <obj_property name="ObjectShortName">f_icb_rsp_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_addr" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_cmd_addr[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_read" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_read</obj_property>
+      <obj_property name="ObjectShortName">memory_cmd_read</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_ready" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">memory_cmd_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_valid" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">memory_cmd_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_wdata" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_wdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_cmd_wdata[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_wmask" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_cmd_wmask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_cmd_wmask[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_rsp_rdata" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_rsp_rdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_rsp_rdata[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_rsp_ready" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_rsp_ready</obj_property>
+      <obj_property name="ObjectShortName">memory_rsp_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_rsp_valid" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/memory_rsp_valid</obj_property>
+      <obj_property name="ObjectShortName">memory_rsp_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_addr" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_cmd_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_read" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_read</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_cmd_read</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_ready" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_ready</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_cmd_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_valid" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_cmd_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_wdata" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_cmd_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_cmd_wdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_rsp_rdata" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_rsp_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_rsp_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_rsp_ready" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_rsp_ready</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_rsp_ready</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_rsp_valid" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/perips_flash_icb_rsp_valid</obj_property>
+      <obj_property name="ObjectShortName">perips_flash_icb_rsp_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/qspi1_flash_irq" type="logic">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/qspi1_flash_irq</obj_property>
+      <obj_property name="ObjectShortName">qspi1_flash_irq</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/step" type="array">
+      <obj_property name="ElementShortName">dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_subsys_perips/u0_main_memory_flash/step[2:0]</obj_property>
+      <obj_property name="ObjectShortName">step[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

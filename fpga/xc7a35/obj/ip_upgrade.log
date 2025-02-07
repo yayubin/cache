@@ -1,0 +1,37 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Feb 21 16:52:55 2024
+| Host         : ZhouMiao running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'reset_sys'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of reset_sys (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Feb 21 15:41:56 2024
+| Host         : ZhouMiao running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mmcm'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mmcm (xilinx.com:ip:clk_wiz:6.0 (Rev. 2)) to Vivado generation flows.
+
